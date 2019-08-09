@@ -1,0 +1,40 @@
+body,html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-image: url('wp2681784-startup-wallpapers.jpg');
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+#containermedio{
+  flex: 2;
+}
+
+footer{
+  font-size: 10px;
+  height: 57px;
+  background-color: rgb(192,192,192);
+  width: 100%;
+}
+
+.cartel{
+font-size: 5rem;
+align-items: center;
+justify-content: center;
+background-color: rgba(0,255, 0, 0.5);
+height: 100px;
+}
+.cartel:hover{
+  transition: 0.5s;
+  transform: scale(1.2);
+}
+.divboton{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
